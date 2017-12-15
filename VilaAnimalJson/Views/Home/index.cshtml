@@ -1,0 +1,35 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+
+<body>
+    <div>
+        @{ 
+            /*string json;
+            using (var reader = new System.IO.StreamReader(Request.InputStream)) {
+                json = reader.ReadToEnd();
+            }
+            Response.Write(json);
+            if(json != null)
+            {
+                Response.Write("Json existe");
+            }*/
+            Response.Write("Eu existo");
+            Response.Write(ViewBag.jsonstate);
+            Response.Write(ViewBag.conex);
+            
+
+            //var person = Json.Decode(json);
+        }
+    </div>
+    
+</body>
+</html>
